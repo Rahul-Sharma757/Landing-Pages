@@ -9,28 +9,69 @@
 <style>
     *{margin: 0; padding: 0; box-sizing: border-box;}
     body{font-family: Arial, Helvetica, sans-serif;}
-    header{padding: 3rem 0;}
-    header h1{text-align: center; padding: 0 1rem;}
-    .content-wrapper{width: 50%; margin: 0 auto;}
-    .content{padding: 0.5rem 0; font-size: 1.2rem;}
-    @media (max-width: 767px){
-        .content-wrapper{width: 100%; padding: 0 1rem;}
+    .container-wrapper{width: 700px; margin: 0 auto;}
+    @media (max-width: 767px) {
+      .container-wrapper{width: 100%; padding: 0 0.5rem;}
+    }
+    @media (max-width: 767px) {
+      .container-wrapper{width: 550px; padding: 0 0.5rem;}
     }
 </style>
 <body>
-    <header>
-        <h1 style="text-align: center;">Knowledge Article</h1>
-    </header>
-    <main>
-        <div class="content-wrapper">
-            <p class="content">knowledge Data Article Number:</p>
-            <p class="content">knowledge Data Brand Article:</p>
-            <p class="content">knowledge Data Validation Status:</p>
-            <p class="content">knowledge Data Publish Status:</p>
-            <p class="content">knowledge Data Approval Status:</p>
-            <p class="content">knowledge Data Question:</p>
-            <p class="content">knowledge Data Answer:</p>
+    <div class="container-wrapper" style="padding-top: 3rem; padding-bottom: 3rem;">
+        <div style="text-align: center; margin-bottom: 3rem;">
+          <h1>Knowledge Article</h1>
         </div>
-    </main>
+        <div style="width: 100%; margin: 0 auto;">
+            <div style="margin-bottom: 3rem; overflow-x: auto; -webkit-overflow-scrolling: touch;">
+                <table style="width: 100%; margin-bottom: 1rem; color: #212529; vertical-align: middle; margin: auto; padding: 20px; border-collapse: collapse; border-spacing: 0;">
+                  <tbody style="vertical-align: middle !important;">
+                      <tr style="border: 0px solid #dee2e6;">
+                        <td colspan="2" style="padding: 1rem; border: 1px solid #dee2e6; color: rgb(0, 0, 0); border-bottom: 0px solid transparent;">
+                          <span style="display: block; font-weight: bold; margin-bottom: 0.5rem; font-size: 1rem;">Knowledge Data Article Number:</span>
+                          28405f01
+                        </td>
+                        <td style="padding: 1rem; border: 1px solid #dee2e6; color: rgb(0, 0, 0); border-bottom: 0px solid transparent;">
+                          <span style="display: block; font-weight: bold; margin-bottom: 0.5rem; font-size: 1rem;">Knowledge Data Brand Article:</span>
+                          Creative Solution
+                        </td>
+                      </tr>
+                  </tbody>
+                </table>
+                <table style="width: 100%; margin-bottom: 1rem; color: #212529; vertical-align: middle; margin: auto; padding: 20px; border-collapse: collapse; border-spacing: 0;">
+                  <tbody style="vertical-align: middle !important;">
+                      <tr style="border: 0px solid #dee2e6;">
+                        <td style="padding: 1rem; border: 1px solid #dee2e6; color: rgb(0, 0, 0); border-bottom: 0px solid black;">
+                          <span style="display: block; font-weight: bold; margin-bottom: 0.5rem; font-size: 1rem;">Knowledge Data Validation Status:</span>
+                          Validated
+                        </td>
+                        <td style="padding: 1rem; border: 1px solid #dee2e6; color: rgb(0, 0, 0); border-bottom: 0px solid black;">
+                            <span style="display: block; font-weight: bold; margin-bottom: 0.5rem; font-size: 1rem;">Knowledge Data Publish Status:</span>
+                            Published
+                        </td>
+                        <td style="padding: 1rem; border: 1px solid #dee2e6; color: rgb(0, 0, 0); border-bottom: 0px solid black; width: 33.33%;">
+                          <span style="display: block; font-weight: bold; margin-bottom: 0.5rem; font-size: 1rem;">Knowledge Data Approval Status:</span>
+                          Approved
+                        </td>
+                      </tr>
+                  </tbody>
+                </table>
+                <table style="width: 100%; margin-bottom: 1rem; color: #212529; vertical-align: middle; margin: auto; padding: 20px; border-collapse: collapse; border-spacing: 0;">
+                    <tbody style="vertical-align: middle !important;">
+                      <tr style="border: 1px solid #dee2e6;">
+                        <td style="padding: 1rem; border: 1px solid #dee2e6; color: rgb(0, 0, 0);">
+                          <span style="display: block; font-weight: bold; margin-bottom: 0.5rem; font-size: 1rem;">Knowledge Data Question:</span>
+                          Lorem ipsum, quisquam error. Sequi, explicabo est?
+                        </td>
+                        <td colspan="2" style="padding: 1rem; border: 1px solid #dee2e6; color: rgb(0, 0, 0);">
+                          <span style="display: block; font-weight: bold; margin-bottom: 0.5rem; font-size: 1rem;">Knowledge Data Answer:</span>
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati at alias sit cumque amet, repellendus iure inventore modi fugiat deserunt quasi expedita tenetur facilis cupiditate quae veniam nemo ipsum aliquid.
+                        </td>
+                      </tr>
+                  </tbody>
+                </table>
+            </div>
+        </div>
+    </div>  
 </body>
 </html>
